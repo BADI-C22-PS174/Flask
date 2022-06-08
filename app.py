@@ -122,20 +122,20 @@ class prediction(Resource):
         ress = df.to_json(orient='records')
         return ress
 
-#data
+#get data
 class getData(Resource):
     def get(self):
             df = pd.read_csv('sales_forcasting.csv')
             res = df.to_json(orient='records')
             return res
 
-#frontPage
-class frontPage(Resource):
+#index
+class index(Resource):
     def get(self):
             return "Connected Succesfully to model BADI!"
 
 #
-api.add_resource(frontPage, '/')
+api.add_resource(index, '/')
 api.add_resource(getData, '/db')
 api.add_resource(prediction, '/prediction/<string:filee>')
 
