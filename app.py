@@ -134,7 +134,7 @@ class index(Resource):
     def get(self):
             return "Connected Succesfully to model BADI!"
 
-#
+# endpoint
 api.add_resource(index, '/')
 api.add_resource(getData, '/db')
 api.add_resource(prediction, '/prediction/<string:filee>')
