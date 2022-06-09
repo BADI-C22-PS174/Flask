@@ -4,4 +4,3 @@ gunicorn
 numpy
 matplotlib
 pandas
-pickle
