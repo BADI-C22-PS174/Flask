@@ -23,7 +23,7 @@
 						"19"
 					],
 					"path": [
-						"db"
+						"/"
 					]
 				},
 				"description": "[GET] connect to API"
