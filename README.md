@@ -14,7 +14,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://34.101.162.19/db",
+					"raw": "http://34.101.162.19/",
 					"protocol": "http",
 					"host": [
 						"34",
